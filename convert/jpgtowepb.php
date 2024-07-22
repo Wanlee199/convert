@@ -19,6 +19,7 @@ foreach ($files as $file) {
     imagewebp($content,$output);
     imagedestroy($content);
     echo '<h4>Output Image Saved as '.$output.'</h4>';
+    echo 'done';
 }
 
 ?>
